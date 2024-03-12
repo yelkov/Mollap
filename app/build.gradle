@@ -30,14 +30,14 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'edu.badpals.mollap.App'
+    mainClass = 'edu.badpals.intercepting.App'
 }
 jar {
     manifest {
-        attributes 'Main-Class' : 'edu.badpals.mollap.App',
+        attributes 'Main-Class' : 'edu.badpals.intercepting.App',
                 'Package-Title' : 'mollap',
                 'Package-Version': '1.0',
                 'Package-Vendor' : 'yelkov',
-                'Specification-Title' : 'Examen Cotxox'
+                'Specification-Title' : 'Examen Mollap'
     }
 }

@@ -1,5 +1,5 @@
 
-package edu.badpals.mollap;
+package edu.badpals.intercepting;
 
 public final class App {
     public static void main(String[] args) {
