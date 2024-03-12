@@ -26,8 +26,9 @@ public class Tasques {
         this.target = target;
     }
     public void execucio(String mensaje){
-        for (Filtre filter: this.tasques ){
+        for (Filtre filter: this.tasques ) {
             filter.execucio(mensaje);
         }
+        this.target.execucio(mensaje);
     }
 }
