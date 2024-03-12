@@ -7,6 +7,6 @@ public class Autenticacio implements Filtre{
 
     @Override
     public void execucio(String nombre) {
-        System.out.println("Autenticación OK para " + nombre.toString());
+        System.out.println("Autenticacion OK para " + nombre.toString());
     }
 }
