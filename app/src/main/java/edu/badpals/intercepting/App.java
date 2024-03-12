@@ -1,6 +1,9 @@
 
 package edu.badpals.intercepting;
 
+import edu.badpals.intercepting.filtres.Autenticacio;
+import edu.badpals.intercepting.filtres.Autoritzacio;
+
 public final class App {
     public static void main(String[] args) {
 
